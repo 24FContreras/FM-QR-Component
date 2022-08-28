@@ -4,7 +4,7 @@ $grayish-blue: hsl(220, 15%, 55%);
 $dark-blue: hsl(217, 45%, 22%);
 
 //FONT
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
 
 html {
  font-family: 'Outfit', sans-serif;
@@ -58,4 +58,15 @@ main{
 
 .attribution{
   margin-top: 16px;
+
+  a{
+    color: #2b71d7;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color .3s ease;
+
+    &:hover{
+      color: #3685ff;
+    }
+  }
 }
