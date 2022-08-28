@@ -5,10 +5,7 @@ html {
 
 body {
   background-color: #d6e2f0;
-}
-
-main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +13,7 @@ main {
 }
 
 .card {
-  width: 18rem;
+  max-width: 18rem;
   background-color: white;
   padding: 1rem;
   border-radius: 20px;
@@ -37,7 +34,7 @@ main {
 .card .card-body h1 {
   color: #1f3251;
   font-size: 23px;
-  line-height: 1.8rem;
+  line-height: 1.25;
   font-weight: 700;
 }
 

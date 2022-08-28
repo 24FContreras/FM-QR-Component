@@ -14,10 +14,7 @@ html {
 
 body{
   background-color: $light-gray;
-}
-
-main{
-  height: 100vh;;
+  min-height: 100vh;;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +22,7 @@ main{
 }
 
 .card{
-  width: 18rem;
+  max-width: 18rem;
   background-color: white;
   padding: 1rem;
   border-radius: 20px;
@@ -44,7 +41,7 @@ main{
     h1{
       color: $dark-blue;
       font-size: 23px;
-      line-height: 1.8rem;
+      line-height: 1.25;
       font-weight: 700;
     }
 
